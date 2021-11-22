@@ -2818,14 +2818,25 @@ header.akcii {
   padding: 5px 0;
   border-bottom: 1px solid rgba(153, 153, 153, 0.445);
 }
-
-.section-electronika .electronika-contet a {
+.section-electronika .electronika-contet .bread-crumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-electronika .electronika-contet .bread-crumb span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+.section-electronika .electronika-contet .bread-crumb p,
+.section-electronika .electronika-contet .bread-crumb a {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   color: #1a1a1a;
-  /* border-bottom: 1px solid rgba(153, 153, 153, 0.226); */
-  /* padding: 5px 0; */
+  border-bottom: 1px solid rgba(153, 153, 153, 0.226);
+  padding: 3px 0;
 }
 .section-electronika .electronika-contet .electronika-main .electronika-right .electronika-btns a.pag,
 .section-electronika .electronika-contet .electronika-main .electronika-right .electronika-btns a.pag-prev {
