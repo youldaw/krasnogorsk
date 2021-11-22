@@ -4501,6 +4501,12 @@ a {
 
 
 @media screen and (max-width: 550px) {
+  header.card_company {
+    height: auto;
+  }
+  header.card_company .sec-card-company {
+    padding-bottom: 0;
+  }
   .sec-lk-company .lk-company-content .lk-company-right-opisanie .working-form .tag_block,
   .sec-lk-company .lk-company-content .lk-company-right-opisanie .working-form,
   .sec-lk-company .lk-company-content .lk-company-right-internet .working-form,
