@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>User</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="user">
+            <div class="container">
+                <div class="header-main">
+                    <div class="header-content">
+                        <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        <div class="mob">
+                            <div class="mob-right">
+                                <div class="drop-mob">
+                                    <a href="#!" class="user-icon-btn mob"><img src="img/user.svg" alt=""></a>
+                                    <span class="drop-span">
+                                        <ul>
+                                            <li><a href="lk_user.html" class="drop-span-btns">Профиль</a></li>
+                                            <li><a href="#!" class="drop-span-btns">Выйти</a></li>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <a href="#!" class="burger-block">
+                                    <span class="one"></span>
+                                    <span class="two"></span>
+                                    <span class="three"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-block">
+                            <nav class="navbar">
+                                <ul>
+                                    <li><a href="index.html">ГЛАВНАЯ</a></li>
+                                    <li><a href="predpriyatiya.html">НАШИ ПРЕДПРИЯТИЯ</a></li>
+                                    <li><a href="tovary.html">ТОВАРЫ</a></li>
+                                    <li><a href="akcii.html">ПРОМОАКЦИИ</a></li>
+                                    <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                                </ul>
+                            </nav>
+                            <div class="user-icon-block">
+                                <a href="tel:">+7 (495) 540-54-97</a>
+                                <a href="#!" class="user-icon-btn pc"><img src="img/user-red.svg" alt=""></a>
+                                <span class="drop-span">
+                                    <ul>
+                                        <li><a href="lk_user.html" class="drop-span-btns">Профиль</a></li>
+                                        <li><a href="#!" class="drop-span-btns">Выйти</a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header-bottom">
+                    <h1>Иванов Григорий</h1>
+                </div>
+            </div>
+            <div class="header-modal">
+                <span class="close-header-modal"><img src="img/close-modal.svg" alt=""></span>
+                <div class="container">
+                    <div class="modal-content">
+                        <h3>Стать партнёром программы<br> #СДЕЛАНОвКРАСНОГОРСКЕ</h3>
+                        <form action="" class="modal-form">
+                            <input type="text" placeholder="Название Вашего предприятия" id="enterprises_name" name="enterprises_name">
+                            <input type="text" placeholder="Вид деятельности" id="view_activity" name="view_activity">
+                            <input type="tel" placeholder="Телефон для клиентов" id="tel_customer" name="tel_customer">
+                            <input type="text" placeholder="Адрес местонахождения" id="adress" name="adress">
+                            <input type="email" placeholder="Эл. почта ответственного лица" id="email_person" name="email_person">
+                            <input type="email" placeholder="Телефон ответственного лица" id="tel_person" name="tel_person">
+                            <button type="submit" id="submit" name="submit">ВОЙТИ</button>
+                        </form>
+                        <p>Отправляя форму, я даю согласие на <a href="#!">обработку персональных данных.</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-login">
+                <span class="close-header-login"><img src="img/close-modal.svg" alt=""></span>
+                <div class="container">
+                    <div class="login-content">
+                        <h2>Вход</h2>
+                        <form action="login-submit" class="header-login" id="header-login">
+                            <input type="text" id="tel_email" name="tel_email" placeholder="Телефон или эл.почта">
+                            <label for="check_login">
+                                <input type="password" id="password" name="password" placeholder="Пароль">
+                                <span>
+                                    <input type="checkbox" name="check_login" id="check_login">
+                                    Запомнить пароль
+                                </span>
+                            </label>
+                            <button type="submit" id="login-submit" name="login-submit">ВОЙТИ</button>
+                        </form>
+                        <div class="login-social">
+                            <p>или продолжить через</p>
+                            <div class="login-social-img">
+                                <a href="#!"><img src="img/vcontact.svg" alt=""></a>
+                                <a href="#!"><img src="img/ok-icon.svg" alt=""></a>
+                                <a href="#!"><img src="img/facebook.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="login-bottom">
+                            <a href="#!" class="login-a-first">Восстановить пароль</a><br>
+                            <a href="#!" class="za">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+                            <p>Отправляя форму, я даю согласие на <a href="#!">обработку персональных данных.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-blur">
+            </div>
+        </header>
+        <section class="section-user-forms">
+            <div class="container">
+                <div class="user-forms-content">
+                    <div class="user-forms-top">
+                        <form action="per_info" class="per_info_form" id="per_info_form">
+                            <h3>ЛИЧНАЯ ИНФОРМАЦИЯ </h3>
+                            <label for="name_per">
+                                Имя
+                                <input type="text" id="name_per" name="name_per" value="Григорий">
+                            </label>
+                            <label for="sur_name_per">
+                                Фамилия 
+                                <input type="text" id="sur_name_per" name="sur_name_per" value="Иванов">
+                            </label>
+                            <label for="birth_per">
+                                <br>
+                                <input type="text" id="birth_per" name="birth_per" placeholder="Дата рождения">
+                            </label>
+                            <label for="tel_per">
+                                <br>
+                                <input type="tel" id="tel_per" name="tel_per" placeholder="Телефон">
+                            </label>
+                            <div class="per_info_button">
+                                <button type="submit" id="per_info">СОХРАНИТЬ</button>
+                            </div>
+                        </form>
+                        <form action="edit_pass" class="per_info_form" id="edit_pass_form">
+                            <h3>ИЗМЕНИТЬ ПАРОЛЬ</h3>
+                            <label for="old_pass">
+                                <br>
+                                <input type="password" id="old_pass" name="old_pass" placeholder="Старый пароль">
+                            </label>
+                            <label for="new_pass">
+                                <br>
+                                <input type="password" id="new_pass" name="new_pass" placeholder="Новый пароль">
+                            </label>
+                            <label for="conf_pass">
+                                <br>
+                                <input type="password" id="conf_pass" name="conf_pass" placeholder="Новый пароль ещё раз">
+                            </label>
+                            <div class="per_info_button">
+                                <button type="submit" id="edit_pass">СОХРАНИТЬ</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="user-forms-bottom">
+                        <form action="set_not" class="set_not_form" id="edit_set_not">
+                            <h3>ИЗМЕНИТЬ ПАРОЛЬ</h3>
+                            <label for="ans_check">
+                                <input type="checkbox" id="ans_check" name="ans_check">
+                                Кто-то ответил на мой комментарий 
+                            </label>
+                            <label for="friend_check">
+                                <input type="checkbox" id="friend_check" name="ans_check">
+                                Мой друг из соцсети написал комментарий <br> в GO!Krasnogorsk 
+                            </label>
+                            <label for="other_check">
+                                <input type="checkbox" id="other_check" name="ans_check">
+                                Прочие уведомления  
+                            </label>
+                            <div class="set_not_button">
+                                <button type="submit" id="set_not">СОХРАНИТЬ</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-favourite">
+            <div class="container">
+                <div class="favourite-content">
+                    <h2>ИЗБРАННЫЕ ОРГАНИЗАЦИИ</h2>
+                    <div class="favourite-main-card">
+                        <div class="favourite-card">
+                            <img src="img/map-card-img.svg" alt="">
+                            <span class="heart-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.779" height="8.781" viewBox="0 0 9.779 8.781">
+                                    <path id="path1777" d="M475.445,960.528a2.629,2.629,0,0,0-2.416,2.456,1.719,1.719,0,0,0,.446,1.136c1.823,2.107,3.04,3.354,4.442,5.189,1.411-1.8,2.555-3.05,4.437-5.18a1.713,1.713,0,0,0,.454-1.146,2.63,2.63,0,0,0-2.418-2.455,3.953,3.953,0,0,0-2.467,1.247,3.968,3.968,0,0,0-2.478-1.247Z" transform="translate(-473.029 -960.528)" fill="#FE323D"/>
+                                </svg>
+                            </span>
+                            <div class="favourite-card-content">
+                                <a href="#!">ФГБУ "Центральный военный кли-нический санаторий "Архангел... </a>
+                                <h4>Санатории, Физиотерапия, Массаж</h4>
+                                <h5>г. Красногорск, ул. Ленина, дом 3</h5>
+                                <p>⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            </div>
+                        </div>
+                        <div class="favourite-card">
+                            <img src="img/map-card-img.svg" alt="">
+                            <span class="heart-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.779" height="8.781" viewBox="0 0 9.779 8.781">
+                                    <path id="path1777" d="M475.445,960.528a2.629,2.629,0,0,0-2.416,2.456,1.719,1.719,0,0,0,.446,1.136c1.823,2.107,3.04,3.354,4.442,5.189,1.411-1.8,2.555-3.05,4.437-5.18a1.713,1.713,0,0,0,.454-1.146,2.63,2.63,0,0,0-2.418-2.455,3.953,3.953,0,0,0-2.467,1.247,3.968,3.968,0,0,0-2.478-1.247Z" transform="translate(-473.029 -960.528)" fill="#FE323D"/>
+                                </svg>
+                            </span>
+                            <div class="favourite-card-content">
+                                <a href="#!">ФГБУ "Центральный военный кли-нический санаторий "Архангел... </a>
+                                <h4>Санатории, Физиотерапия, Массаж</h4>
+                                <h5>г. Красногорск, ул. Ленина, дом 3</h5>
+                                <p>⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            </div>
+                        </div>
+                        <div class="favourite-card">
+                            <img src="img/map-card-img.svg" alt="">
+                            <span class="heart-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.779" height="8.781" viewBox="0 0 9.779 8.781">
+                                    <path id="path1777" d="M475.445,960.528a2.629,2.629,0,0,0-2.416,2.456,1.719,1.719,0,0,0,.446,1.136c1.823,2.107,3.04,3.354,4.442,5.189,1.411-1.8,2.555-3.05,4.437-5.18a1.713,1.713,0,0,0,.454-1.146,2.63,2.63,0,0,0-2.418-2.455,3.953,3.953,0,0,0-2.467,1.247,3.968,3.968,0,0,0-2.478-1.247Z" transform="translate(-473.029 -960.528)" fill="#FE323D"/>
+                                </svg>
+                            </span>
+                            <div class="favourite-card-content">
+                                <a href="#!">ФГБУ "Центральный военный кли-нический санаторий "Архангел... </a>
+                                <h4>Санатории, Физиотерапия, Массаж</h4>
+                                <h5>г. Красногорск, ул. Ленина, дом 3</h5>
+                                <p>⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            </div>
+                        </div>
+                        <div class="favourite-card">
+                            <img src="img/map-card-img.svg" alt="">
+                            <span class="heart-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.779" height="8.781" viewBox="0 0 9.779 8.781">
+                                    <path id="path1777" d="M475.445,960.528a2.629,2.629,0,0,0-2.416,2.456,1.719,1.719,0,0,0,.446,1.136c1.823,2.107,3.04,3.354,4.442,5.189,1.411-1.8,2.555-3.05,4.437-5.18a1.713,1.713,0,0,0,.454-1.146,2.63,2.63,0,0,0-2.418-2.455,3.953,3.953,0,0,0-2.467,1.247,3.968,3.968,0,0,0-2.478-1.247Z" transform="translate(-473.029 -960.528)" fill="#FE323D"/>
+                                </svg>
+                            </span>
+                            <div class="favourite-card-content">
+                                <a href="#!">ФГБУ "Центральный военный кли-нический санаторий "Архангел... </a>
+                                <h4>Санатории, Физиотерапия, Массаж</h4>
+                                <h5>г. Красногорск, ул. Ленина, дом 3</h5>
+                                <p>⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            </div>
+                        </div>
+                        <div class="favourite-card">
+                            <img src="img/map-card-img.svg" alt="">
+                            <span class="heart-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.779" height="8.781" viewBox="0 0 9.779 8.781">
+                                    <path id="path1777" d="M475.445,960.528a2.629,2.629,0,0,0-2.416,2.456,1.719,1.719,0,0,0,.446,1.136c1.823,2.107,3.04,3.354,4.442,5.189,1.411-1.8,2.555-3.05,4.437-5.18a1.713,1.713,0,0,0,.454-1.146,2.63,2.63,0,0,0-2.418-2.455,3.953,3.953,0,0,0-2.467,1.247,3.968,3.968,0,0,0-2.478-1.247Z" transform="translate(-473.029 -960.528)" fill="#FE323D"/>
+                                </svg>
+                            </span>
+                            <div class="favourite-card-content">
+                                <a href="#!">ФГБУ "Центральный военный кли-нический санаторий "Архангел... </a>
+                                <h4>Санатории, Физиотерапия, Массаж</h4>
+                                <h5>г. Красногорск, ул. Ленина, дом 3</h5>
+                                <p>⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            </div>
+                        </div>
+                        <div class="favourite-card">
+                            <img src="img/map-card-img.svg" alt="">
+                            <span class="heart-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.779" height="8.781" viewBox="0 0 9.779 8.781">
+                                    <path id="path1777" d="M475.445,960.528a2.629,2.629,0,0,0-2.416,2.456,1.719,1.719,0,0,0,.446,1.136c1.823,2.107,3.04,3.354,4.442,5.189,1.411-1.8,2.555-3.05,4.437-5.18a1.713,1.713,0,0,0,.454-1.146,2.63,2.63,0,0,0-2.418-2.455,3.953,3.953,0,0,0-2.467,1.247,3.968,3.968,0,0,0-2.478-1.247Z" transform="translate(-473.029 -960.528)" fill="#FE323D"/>
+                                </svg>
+                            </span>
+                            <div class="favourite-card-content">
+                                <a href="#!">ФГБУ "Центральный военный кли-нический санаторий "Архангел... </a>
+                                <h4>Санатории, Физиотерапия, Массаж</h4>
+                                <h5>г. Красногорск, ул. Ленина, дом 3</h5>
+                                <p>⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="favourite-hide-btn">
+                        <a href="#!">РАЗВЕРНУТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-my-reviews">
+            <div class="container">
+                <div class="reviews-content">
+                    <h2>МОИ ОТЗЫВЫ</h2>
+                    <div class="reviews-block">
+                        <div class="reviews-left">
+                            <p>⭐4.5</p>
+                        </div>
+                        <div class="reviews-right">
+                            <div class="review-block-title">
+                                <h3>Компания1</h3>
+                                <p>1 января 2021 года  00:00</p>
+                            </div>
+                            <div class="dignity">
+                                <p>Достоинства</p>
+                                <h4>Отличные мастер-классы Очень довольны и дети, и родители. Обязательно будем ходить еще!.</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Недостатки</p>
+                                <h4>Нет</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Комментарий</p>
+                                <h4>Было бы здорово, если бы еще добавили занятия по пению</h4>
+                            </div>
+                            <div class="review-btn">
+                                <a href="#!">ПЕРЕЙТИ К ОТЗЫВУ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews-left">
+                            <p>⭐4.5</p>
+                        </div>
+                        <div class="reviews-right">
+                            <div class="review-block-title">
+                                <h3>Компания1</h3>
+                                <p>1 января 2021 года  00:00</p>
+                            </div>
+                            <div class="dignity">
+                                <p>Достоинства</p>
+                                <h4>Отличные мастер-классы Очень довольны и дети, и родители. Обязательно будем ходить еще!.</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Недостатки</p>
+                                <h4>Нет</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Комментарий</p>
+                                <h4>Было бы здорово, если бы еще добавили занятия по пению</h4>
+                            </div>
+                            <div class="review-btn">
+                                <a href="#!">ПЕРЕЙТИ К ОТЗЫВУ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-hide-btn">
+                        <a href="#!">РАЗВЕРНУТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-top">
+                        <img src="img/logo.svg" alt="">
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#!">О проекте</a></li>
+                                <li><a href="#!">Присоединиться к проекту</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="predpriyatiya.html">Наши предприятия</a></li>
+                                <li><a href="#!">Промоакции</a></li>
+                                <li><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                            <a href="tel:">+7 (495) 540-54-97</a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2020 - 2021 г. Политика конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/range.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

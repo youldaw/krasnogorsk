@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Card Company</title>
+</head>
+<body>
+    <div class="wrapper lkcompany-page">
+        <header class="card_company">
+            <div class="container">
+                <div class="header-main">
+                    <div class="header-content">
+                        <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        <div class="mob">
+                            <div class="mob-right">
+                                <div class="drop-mob">
+                                    <a href="#!" class="user-icon-btn mob"><img src="img/user.svg" alt=""></a>
+                                    <span class="drop-span">
+                                        <ul>
+                                            <li><a href="lk_user.html" class="drop-span-btns">Профиль</a></li>
+                                            <li><a href="#!" class="drop-span-btns">Выйти</a></li>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <a href="#!" class="burger-block">
+                                    <span class="one"></span>
+                                    <span class="two"></span>
+                                    <span class="three"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-block">
+                            <nav class="navbar">
+                                <ul>
+                                    <li><a href="index.html" class="active">ГЛАВНАЯ</a></li>
+                                    <li><a href="predpriyatiya.html">НАШИ ПРЕДПРИЯТИЯ</a></li>
+                                    <li><a href="tovary.html">ТОВАРЫ</a></li>
+                                    <li><a href="akcii.html">ПРОМОАКЦИИ</a></li>
+                                    <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                                </ul>
+                            </nav>
+                            <div class="user-icon-block">
+                                <a href="tel:">+7 (495) 540-54-97</a>
+                                <a href="#!" class="user-icon-btn pc"><img src="img/user-red.svg" alt=""></a>
+                                <span class="drop-span">
+                                    <ul>
+                                        <li><a href="lk_user.html" class="drop-span-btns">Профиль</a></li>
+                                        <li><a href="#!" class="drop-span-btns">Выйти</a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="sec-card-company">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="card-company-content">
+                            <div class="card-company-left">
+                                <div class="card-in">
+                                    <h1>Центр школьника<br> "ОЛИМПиЯ"</h1>
+                                    <p>Развивающие занятия <br> для детей рядом с домом</p>
+                                    <h2>+7 (977) 836-01-55</h2>
+                                </div>
+                                <ul>
+                                    <li><a href="#!" class="lk_company_btns active">ИНФОРМАЦИЯ</a></li>
+                                    <li><a href="#!" class="lk_company_btns">УСЛУГИ</a></li>
+                                    <li><a href="#!" class="lk_company_btns">ТОВАРЫ</a></li>
+                                    <li><a href="#!" class="lk_company_btns">АКЦИИ</a></li>
+                                    <li><a href="#!" class="lk_company_btns">БЛОГ</a></li>
+                                    <li><a href="#!" class="lk_company_btns">ОТЗЫВЫ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-slide">
+                            <div class="item">
+                                <img src="img/slider-olimp.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/slider-olimp.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/slider-olimp.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/slider-olimp.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="header-modal">
+                <span class="close-header-modal"><img src="img/close-modal.svg" alt=""></span>
+                <div class="container">
+                    <div class="modal-content">
+                        <h3>Стать партнёром программы<br> #СДЕЛАНОвКРАСНОГОРСКЕ</h3>
+                        <form action="" class="modal-form">
+                            <input type="text" placeholder="Название Вашего предприятия" id="enterprises_name" name="enterprises_name">
+                            <input type="text" placeholder="Вид деятельности" id="view_activity" name="view_activity">
+                            <input type="tel" placeholder="Телефон для клиентов" id="tel_customer" name="tel_customer">
+                            <input type="text" placeholder="Адрес местонахождения" id="adress" name="adress">
+                            <input type="email" placeholder="Эл. почта ответственного лица" id="email_person" name="email_person">
+                            <input type="email" placeholder="Телефон ответственного лица" id="tel_person" name="tel_person">
+                            <button type="submit" id="submit" name="submit">ВОЙТИ</button>
+                        </form>
+                        <p>Отправляя форму, я даю согласие на <a href="#!">обработку персональных данных.</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-blur">
+            </div>
+            <div class="header-login">
+                <span class="close-header-login"><img src="img/close-modal.svg" alt=""></span>
+                <div class="container">
+                    <div class="login-content">
+                        <h2>Вход</h2>
+                        <form action="login-submit" class="header-login" id="header-login">
+                            <input type="text" id="tel_email" name="tel_email" placeholder="Телефон или эл.почта">
+                            <label for="check_login">
+                                <input type="password" id="password" name="password" placeholder="Пароль">
+                                <span>
+                                    <input type="checkbox" name="check_login" id="check_login">
+                                    Запомнить пароль
+                                </span>
+                            </label>
+                            <button type="submit" id="login-submit" name="login-submit">ВОЙТИ</button>
+                        </form>
+                        <div class="login-social">
+                            <p>или продолжить через</p>
+                            <div class="login-social-img">
+                                <a href="#!"><img src="img/vcontact.svg" alt=""></a>
+                                <a href="#!"><img src="img/ok-icon.svg" alt=""></a>
+                                <a href="#!"><img src="img/facebook.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="login-bottom">
+                            <a href="#!" class="login-a-first">Восстановить пароль</a><br>
+                            <a href="#!" class="za">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+                            <p>Отправляя форму, я даю согласие на <a href="#!">обработку персональных данных.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section-card-description">
+            <div class="container">
+                <div class="card-description-content">
+                    <div class="description-left">
+                        <div class="des-left-blocks">
+                            <h2>ОПИСАНИЕ</h2>
+                            <p>Занятия для детей от 6-ти лет. Хор, вокал, фортепиано. Театральная студия - 2 спектакля в год. Подготовка к школе от 5-ти лет. Брейк 
+                                данс. Акробатика, гимнастика. Шахматы. ТРИЗ. Спочан фехтование. Олимпиадная математика. Живопись академическая (подготовка к 
+                                худ.школе). Правополушарное рисование для детей и взрослых. Логопед. Психолог. Нейропсихолог. 
+                            </p>
+                        </div>
+                        <div class="des-left-blocks">
+                            <h2>COVID-19 </h2>
+                            <p>10% на покупку абонемента. Он-лайн занятия со скидкой 20%</p>
+                        </div>
+                        <div class="des-left-blocks">
+                            <h2>COVID-19 </h2>
+                            <p><span>Личное развитие</span><br>Занятия на фортепиано, рисование</p>
+                            <p><span>Спорт</span><br>Акробатика, <span class="red-color">гимнастика</span></p>
+                            <p><span>Танцы</span><br>Брейк-данс, современные танцы, фламенко, восточные танцы</p>
+                        </div>
+                    </div>
+                    <div class="description-right">
+                        <div class="des-right-blocks">
+                            <h2>КОНТАКТЫ</h2>
+                            <h3>+7 (977) 836-01-55</h3>
+                            <a href="https://olimpiya.school/ ">https://olimpiya.school/</a>
+                            <div class="des-social">
+                                <a href="#!"><img src="img/wk-icon.svg" alt=""></a>
+                                <a href="#!"><img src="img/face-icon.svg" alt=""></a>
+                            </div>
+                            <p class="star">⭐⭐⭐⭐⭐ <span>5.0</span> 2 отзыва</p>
+                            <p>Россия, Московская область, <br> г. Красногорск, ул. Успенская, д.8 </p>
+                            <div class="map">
+                                <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3Ae406598dcaac8c25633168433ea3d6c1315a6d35f79ded92c72f991f9893b60c&amp;source=constructor" width="100%" height="260" frameborder="0"></iframe>
+                            </div>
+                            <div class="des-right-btn">
+                                <a href="#!">ПОКАЗАТЬ НА КАРТЕ</a>
+                            </div>
+                        </div>
+                        <div class="des-right-blocks">
+                            <h2>ГРАФИК РАБОТЫ</h2>
+                            <p>Пн-Пт: 09:00-17:00</p>
+                        </div>
+                        <div class="des-right-blocks">
+                            <h2>ВИД ДЕЯТЕЛЬНОСТИ</h2>
+                            <p>Детский центр, хобби-центр</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-electronika">
+            <div class="container">
+                <div class="electronika-contet">
+                    <h2>ТОВАРЫ</h2>
+                    <div class="electronika-main">
+                        <div class="electronika-left">
+                            <div class="el-block category-block">
+                                <h3 class="category-btn">Категории &nbsp; <img src="img/arrow-up.svg" alt=""></h3>
+                                <div class="dropdown-menu category-menu">
+                                    <div class="dropdown-menu brand-menu">
+                                        <div class="cat-in">
+                                            <a href="#!">Категория1</a>
+                                        </div>
+                                        <div class="cat-in">
+                                            <a href="#!">Категория2</a>
+                                        </div>
+                                        <div class="cat-in">
+                                            <a href="#!" class="pod-cat">Категория3</a>
+                                            <div class="pod-cat-menu">
+                                                <a href="#!">Подкатегория1</a>
+                                                <a href="#!">Подкатегория2</a>
+                                                <a href="#!">Подкатегория3</a>
+                                                <a href="#!">Подкатегория4</a>
+                                                <a href="#!">Подкатегория5</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="el-block price-block">
+                                <h3 class="price-btn">Цена, Р &nbsp; <img src="img/arrow-up.svg" alt=""></h3>
+                                <div class="dropdown-menu price-menu">
+                                    <div class="range">
+                                        <div class="multirange">
+                                            <input type="range" min="0" max="150" value="4" class="lower">
+                                            <input type="range" min="0" max="150" value="100" class="upper">
+                                            <span class="line"></span>
+                                        </div>
+                                        <div class="from_to">
+                                            <p>от <span class="result-l">4</span></p>
+                                            <p>до <span class="result-u">100</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="el-block brand-block">
+                                <h3 class="brand-btn">Бренд &nbsp; <img src="img/arrow-up.svg" alt=""></h3>
+                                <div class="dropdown-menu brand-menu">
+                                    <div class="form-group">
+                                        <input type="search" id="brend_search" name="brend_search" placeholder="Найти">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="brand_1">
+                                            <input type="checkbox" name="brand_1" id="brand_1">
+                                            Бренд1
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="brand_2">
+                                            <input type="checkbox" name="brand_2" id="brand_2">
+                                            Бренд2
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="brand_3">
+                                            <input type="checkbox" name="brand_3" id="brand_3">
+                                            Бренд3
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="el-block color-block">
+                                <h3 class="color-btn">Цвет &nbsp; <img src="img/arrow-up.svg" alt=""></h3>
+                                <div class="dropdown-menu color-menu">
+                                    <div class="dropdown-menu brand-menu">
+                                        <div class="form-group">
+                                            <label for="col_black">
+                                                <input type="checkbox" name="col_black" id="col_black">
+                                                <img src="img/black-circle.svg" alt=""> Чёрный
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="col_white">
+                                                <input type="checkbox" name="col_white" id="col_white">
+                                                <img src="img/white-circle.svg" alt=""> Белый
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="col_red">
+                                                <input type="checkbox" name="col_red" id="col_red">
+                                                <img src="img/red-circle.svg" alt=""> Красный
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="col_blue">
+                                                <input type="checkbox" name="col_blue" id="col_blue">
+                                                <img src="img/blue-circle.svg" alt=""> Синий
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="col_green">
+                                                <input type="checkbox" name="col_green" id="col_green">
+                                                <img src="img/green-circle.svg" alt=""> Зелёный
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="col_yellow">
+                                                <input type="checkbox" name="col_yellow" id="col_yellow">
+                                                <img src="img/yellow-circle.svg" alt=""> Жёлтый
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="col_brown">
+                                                <input type="checkbox" name="col_brown" id="col_brown">
+                                                <img src="img/brown-circle.svg" alt=""> Коричневый
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="electronika-right">
+                            <div class="laptop-cards-title">
+                                <ul>
+                                    <li>Сортировать:</li>
+                                    <li><a href="#!">по цене <img src="img/po-center.svg" alt=""></a></li>
+                                    <li><a href="#!" class="red">по популярности</a></li>
+                                    <li><a href="#!">по алфавиту</a></li>
+                                </ul>
+                            </div>
+                            <div class="electronika-card-main">
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <div class="card-bottom">
+                                        <span>+</span>
+                                        <span class="middle-span">1 шт</span>
+                                        <span>-</span> 
+                                    </div>
+                                </div>
+
+                                <div class="electronika-card">
+                                    <img src="img/card-img.svg" alt="">
+                                    <h4>1500 Р</h4>
+                                    <p>Гитара шестиструнная</p>
+                                    <a href="#!">В КОРЗИНУ</a>
+                                </div>
+
+                            </div>
+                            <div class="electronika-btns-anchor">
+                                <a href="#!">ПОКАЗАТЬ ЕЩЁ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-news-card">
+            <div class="container">
+                <div class="news-card-content">
+                    <h4>АКЦИИ</h4>
+                    <div class="news-card">
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card-content">
+                    <h4>БЛОГ</h4>
+                    <div class="news-card">
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+
+                        <div class="mew-card-items">
+                            <img src="img/card-img.svg" alt="">
+                            <div class="new-card-text">
+                                <h5>Название акции</h5>
+                                <p>Описание акции</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-card-reviews">
+            <div class="container">
+                <div class="card-reviews-content">
+                    <h2>ОТЗЫВЫ</h2>
+                    <div class="reviwes-title">
+                        <p>4.9 ⭐⭐⭐⭐⭐ &nbsp; <span> 12 оценок</span></p> <a href="#!">ДОБАВИТЬ ОТЗЫВ</a>
+                    </div>
+                    <div class="all-reviews">
+                        <h4>Все отзывы <span>2</span></h4>
+                        <ul>
+                            <li>Сортировать:</li>
+                            <li><a href="#!" class="black-color">по дате <img src="img/po-center.svg" alt=""></a></li>
+                            <li><a href="#!">по оценке</a></li>
+                            <li><a href="#!" class="red">по популярности</a></li>
+                        </ul>
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews-left">
+                            <p>⭐5</p>
+                        </div>
+                        <div class="reviews-right">
+                            <div class="review-block-title">
+                                <h3>Фамилия Имя</h3>
+                                <p>1 января 2021 года  00:00</p>
+                            </div>
+                            <div class="dignity">
+                                <p>Достоинства</p>
+                                <h4>Отличные мастер-классы Очень довольны и дети, и родители. Обязательно будем ходить еще!.</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Недостатки</p>
+                                <h4>Нет</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Комментарий</p>
+                                <h4>Было бы здорово, если бы еще добавили занятия по пению</h4>
+                            </div>
+                            <div class="review-btn">
+                                <a href="#!"><img src="img/good-hand.svg" alt=""> &nbsp; 20</a>
+                                <a href="#!"><img src="img/bad-hand.svg" alt=""> &nbsp; 0</a>
+                                <a href="#!">Ответить</a>
+                            </div>
+                            <div class="review-bottom">
+                                <h4>Центр школьника "ОЛИМПиЯ" &nbsp; <span>1 января 2021 года  00:00</span></h4>
+                                <p>Благодарим за отзыв!</p>
+                                <div class="review-btn">
+                                    <a href="#!"><img src="img/good-hand.svg" alt=""> &nbsp; 20</a>
+                                    <a href="#!"><img src="img/bad-hand.svg" alt=""> &nbsp; 0</a>
+                                    <a href="#!">Ответить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews-left">
+                            <p>⭐5</p>
+                        </div>
+                        <div class="reviews-right">
+                            <div class="review-block-title">
+                                <h3>Фамилия Имя</h3>
+                                <p>1 января 2021 года  00:00</p>
+                            </div>
+                            <div class="dignity">
+                                <p>Достоинства</p>
+                                <h4>Отличные мастер-классы Очень довольны и дети, и родители. Обязательно будем ходить еще!.</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Недостатки</p>
+                                <h4>Нет</h4>
+                            </div>
+                            <div class="dignity">
+                                <p>Комментарий</p>
+                                <h4>Было бы здорово, если бы еще добавили занятия по пению</h4>
+                            </div>
+                            <div class="review-btn">
+                                <a href="#!"><img src="img/good-hand.svg" alt=""> &nbsp; 20</a>
+                                <a href="#!"><img src="img/bad-hand.svg" alt=""> &nbsp; 0</a>
+                                <a href="#!">Ответить</a>
+                            </div>
+                            <div class="review-bottom">
+                                <form action="com_submit" id="review-form">
+                                    <input type="text" placeholder="Имя" id="com_owner" name="com_owner">
+                                    <input type="text" placeholder="Комментарий" id="com_text" name="com_text">
+                                    <div class="review-form-btns">
+                                        <button type="submit" id="com_submit">ОТПРАВИТЬ</button>
+                                        <button type="reset">ОТМЕНИТЬ</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-hide-btn">
+                        <a href="#!">ПОКАЗАТЬ ЕЩЁ ОТЗЫВЫ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-top">
+                        <img src="img/logo.svg" alt="">
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#!">О проекте</a></li>
+                                <li><a href="#!">Присоединиться к проекту</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="predpriyatiya.html">Наши предприятия</a></li>
+                                <li><a href="#!">Промоакции</a></li>
+                                <li><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                            <a href="tel:">+7 (495) 540-54-97</a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2020 - 2021 г. Политика конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/range.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
